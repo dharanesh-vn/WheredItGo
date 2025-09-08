@@ -1,0 +1,9 @@
+// client/src/components/Forms/FormStyles.js
+import styled from 'styled-components';
+export const FormContainer=styled.div` min-height:100vh; display:flex; flex-direction:column; justify-content:center; align-items:center; background:#121212; padding:2rem; `;
+export const FormWrapper=styled.div` background-color:#1a1a1a; padding:3rem; border-radius:20px; border:1px solid #2a2a2a; box-shadow:0 0 30px rgba(0,0,0,0.5); max-width:450px; width:100%; text-align:center; `;
+export const Input=styled.input` width:100%; padding:1rem; margin-bottom:1rem; border-radius:8px; border:1px solid #333; background:#1e1e1e; color:#f0f0f0; font-size:1rem; font-family:inherit; box-sizing:border-box; &::placeholder{color:#888;} &:focus{outline:none; border-color:#7F00FF;} `;
+export const Select=styled.select` width:100%; padding:1rem; margin-bottom:1rem; border-radius:8px; border:1px solid #333; background:#1e1e1e; color:#f0f0f0; font-size:1rem; font-family:inherit; box-sizing:border-box; &:focus{outline:none; border-color:#7F00FF;} `;
+export const Button=styled.button` width:100%; padding:1rem; border-radius:10px; border:none; background:linear-gradient(135deg,#7F00FF,#5E35B1); color:white; font-size:1.1rem; font-weight:600; cursor:pointer; transition:all 0.3s ease; &:hover{transform:scale(1.03); box-shadow:0 0 15px rgba(127,0,255,0.5);} `;
+export const SwitchText=styled.p` margin-top:1.5rem; font-size:0.9rem; color:#cccccc; span{color:#8e2de2; cursor:pointer; font-weight:600; margin-left:5px; &:hover{text-decoration:underline;}} `;
+export const ErrorMessage=styled.p` color:#ff4d4d; background-color:rgba(255,77,77,0.1); border:1px solid #ff4d4d; border-radius:8px; padding:0.75rem; margin-bottom:1rem; font-size:0.9rem; text-align:center; `;
