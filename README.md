@@ -10,9 +10,6 @@ Where'dItGo? is a full-stack MERN application designed to be a central dashboard
 *   **Financial Summary:** A high-level overview of your total balance, monthly income, and monthly expenses.
 *   **(In Progress) Full CRUD Functionality:** The application is built with a modular structure to easily support full Create, Read, Update, and Delete operations for all financial modules.
 
-![Where'dItGo? Dashboard Screenshot](placeholder.png) 
-*(Note: To make this work, add a screenshot of your app named `placeholder.png` to the root folder, or link to an image online)*
-
 ## Tech Stack
 
 This project is built on the MERN stack with a few other key libraries to enhance functionality.
